@@ -1,0 +1,35 @@
+{
+  "name": "restwebservices",
+  "version": "1.0.0",
+  "description": "this project deals with demonstration of Working on restful web services with express and Node.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberbot143/ReST-Ful-Web-services-Express-Node.js-.git"
+  },
+  "keywords": [
+    "REST",
+    "NODE",
+    "Express",
+    "Web",
+    "Services"
+  ],
+  "author": "SAI KRISHNA V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberbot143/ReST-Ful-Web-services-Express-Node.js-/issues"
+  },
+  "homepage": "https://github.com/cyberbot143/ReST-Ful-Web-services-Express-Node.js-#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^4.11.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
