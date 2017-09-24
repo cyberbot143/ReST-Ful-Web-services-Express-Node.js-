@@ -1,36 +1,25 @@
 {
-  "name": "restwebservices",
-  "version": "1.0.0",
-  "description": "this project deals with demonstration of Working on restful web services with express and Node.js ",
+  "name": "BookAPI",
+  "version": "0.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.11.2",
+    "gulp": "^3.8.11",
+    "gulp-nodemon": "^1.0.5",
+    "mongoose": "^3.8.24",
+    "body-parser": "^1.12.0",
+    "sinon": "^1.14.0",
+    "should": "^5.2.0",
+    "gulp-mocha": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.2.0",
+    "supertest": "^0.15.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyberbot143/ReST-Ful-Web-services-Express-Node.js-.git"
-  },
-  "keywords": [
-    "REST",
-    "NODE",
-    "Express",
-    "Web",
-    "Services"
-  ],
-  "author": "SAI KRISHNA V",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyberbot143/ReST-Ful-Web-services-Express-Node.js-/issues"
-  },
-  "homepage": "https://github.com/cyberbot143/ReST-Ful-Web-services-Express-Node.js-#readme",
-  "dependencies": {
-    "body-parser": "^1.18.1",
-    "express": "^4.15.4",
-    "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.2.1",
-    "mongoose": "^4.11.12"
-  },
-  "devDependencies": {
-    "nodemon": "^1.12.1"
-  }
+  "author": "",
+  "license": "ISC"
 }
