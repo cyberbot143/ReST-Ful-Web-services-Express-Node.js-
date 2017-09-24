@@ -1,17 +1,17 @@
 {
   "name": "BookAPI",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "ReSTFul Web Services using Node and Express",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.12.0",
     "express": "^4.11.2",
     "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0",
     "gulp-nodemon": "^1.0.5",
-    "mongoose": "^3.8.24",
-    "body-parser": "^1.12.0",
-    "sinon": "^1.14.0",
+    "mongoose": "^4.11.12",
     "should": "^5.2.0",
-    "gulp-mocha": "^2.0.0"
+    "sinon": "^1.14.0"
   },
   "devDependencies": {
     "gulp-env": "^0.2.0",
@@ -20,6 +20,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "SAI KRISHNA",
   "license": "ISC"
 }

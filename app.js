@@ -5,13 +5,11 @@ var express = require('express'),
 
 var db;
 console.log('Hello');
-if(process.env.ENV == 'Test'){
+if (process.env.ENV == 'Test') {
 
     db = mongoose.connect("mongodb://localhost:27017/bookAPI_Test"); //connection to mongodb
-}
-
-else{
-    db= mongoose.connect('mongodb://localhost/bookAPI');
+} else {
+    db = mongoose.connect('mongodb://localhost/bookAPI');
 }
 
 var Book = require('./models/bookModel');
@@ -20,20 +18,23 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 app.use(bodyParser.json());
 
 bookRouter = require('./Routes/bookRoutes')(Book);
 
 
-app.use('/api/books', bookRouter); 
+app.use('/api/books', bookRouter);
 
 
-app.get('/', function(req, res){
+app.get('/', function (req, res) {
     res.send('welcome to my API!');
 });
+``
 
-app.listen(port, function(){
+app.listen(port, function () {
     console.log('Gulp is running my app on  PORT: ' + port);
 });
 
